@@ -15,6 +15,16 @@ const routes = [
     component: () => import('../views/HelloWorld'),
   },
   {
+    path: '/crud_demo',
+    name: 'crud_demo',
+    component: () => import('../views/CRUD_demo.vue'),
+  },
+  {
+    path: '/crud_remote_demo',
+    name: 'crud_remote_demo',
+    component: () => import('../views/CRUD_remote_demo.vue'),
+  },
+  {
     path: '/about',
     name: 'about',
     // route level code-splitting

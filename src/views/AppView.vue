@@ -18,6 +18,22 @@
             <v-list-item-title>Hello World</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
+        <v-list-item to="/crud_demo">
+          <v-list-item-action>
+            <v-icon>face</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title>CRUD Demo</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item to="/crud_remote_demo">
+          <v-list-item-action>
+            <v-icon>face</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title>CRUD Remote Demo</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
         <v-list-item to="/about">
           <v-list-item-action>
             <v-icon>folder</v-icon>
